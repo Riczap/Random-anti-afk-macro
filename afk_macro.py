@@ -59,7 +59,7 @@ def main():
 
 		time_elapsed += wait_time
 
-		print(f"Aprox time elapsed: {round(time_elapsed/60,2)} min | {round(12660-time_elapsed/60,2)} min left")
+		print(f"Aprox time elapsed: {round(time_elapsed/60,2)} min | {round((12660-time_elapsed)/60,2)} min left")
 
 		#3.5 hrs = 12660 sec
 		if time_elapsed >= 12660:
